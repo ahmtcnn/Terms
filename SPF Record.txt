@@ -1,0 +1,15 @@
+**SPF ( Sender Policy Frameword ) Record**
+
+SPF kaydi, e-postanin teslimi sirasinda sahte gönderen adreslerini tespit etmek için tasarlanmis bir e-posta dogrulama yöntemidir.
+Microsoft'un spamlari engellemek için baslatmis oldugu bir hizmettir. Sunucunun gerçek bir sunucu oldugunu
+dogrulamaktadir.
+
+Alan adinin DNS kayitlarinda, o alan adinin hangi ip adreslerinden email gönderdigini belirten TXT kayitlarina 
+verilen isimdir. Eposta gönderimlerinde gönderici için "kimlik ibrazi" da denilebilir. Özellikler Gmail,Hotmail,Yahoo 
+gibi mail servislerinin kontrol ettigi SPF kayit dogrulamasi ile ISS'ler , aldiklari e-posta mesajinin, gönderim 
+yapilan sunucu ile gönderici mail adresinin gerçek gönderici oldugunu teyid etmek isterler. SPF kaydi dns veritabaninda tutulur
+DNS in "text" kaydinda tutulur.
+
+-kitterman.com/spf/validate.html adresinden kontrol edilebilir
+-anonymousmail.me adresinden, eger domaine ait spf kaydi yok ise onlarin adina mail gönderebilirsin ve sahteligi belli olmaz.
+
