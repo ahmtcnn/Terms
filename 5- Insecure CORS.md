@@ -1,6 +1,6 @@
 **Insecure CORS - Cross-Origin Resource Sharing (Kökenler arasi kaynak paylasimi)**
 
- web tarayicisi tarafindan yönetilen ve ek HTTP basliklari kullanilarak, bir kökende çalisan web uygulamasinin, 
+Web tarayicisi tarafindan yönetilen ve ek HTTP basliklari kullanilarak, bir kökende çalisan web uygulamasinin, 
 farkli bir kökende yer alan web uygulamasina erisim izni kontrolünü saglayan mekanizmadir.Web uygulamasi, internet 
 tarayicisi üzerinden farkli bir kökene (protokol, domain ve port) herhangi bir istek gönderirse cross-origin HTTP istegi olusturmus olur.
 Örnegin, http://domain-a.com üzerinde yer alan bir web uygulamasinin JavaScript tarafindan ajax istegi göndererek, 
@@ -45,6 +45,21 @@ iste bu bütün sitelere izin veriyor.
 Request blocked varsa sikinti yok
 
 Aslinda request header'a da Origin basligi ile bir site ekleyerek görebiliyorsak burdada zafiyet olabilir anlamina geliyor. 
+
+**Access-Control-Allow-Origin** specifies which domains can access a domain’s resources. For instance, if requester.com want to access provider.com’s resources, then developers can use this header to securely grant requester.com access to provider.com’s resources.
+**Access-Control-Allow-Credentials** specifies whether or not the browser will send cookies with the request. Cookies will only be sent if the allow-credentials header is set to true.
+**Access-Control-Allow-Methods** specifies which HTTP request methods (GET, PUT, DELETE, etc.) can be used to access resources. This header lets developers further enhance security by specifying what methods are valid when requester.com requests access to provider.com’s resources.
+
+
+**Attack SCENARIOS**
+
+1.Exploiting misconfigured wildcard (*) in CORS Headers:
+
+2.Trusting Pre-domain Wildcard as Origin:
+  -if ($_SERVER['HTTP_HOST'] == '*.requester.com')
+
+3.Using XSS to make requests to cross origin sites
+  -request from subdomain via xss
 
 
 
