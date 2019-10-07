@@ -23,7 +23,7 @@ sertifikasidir.
 
 SSL ve TSL’in her ikisi de özünde birer sifreleme ve yetkilendirme protokolüdür. Bu protokoller yardimiyla sunucudan sunucuya veya sunucudan 
 istemciye güvenli sekilde veri transferi gerçeklestirilir. SSL, TSL’in daha ilkel halidir. Bilisim ve internet dünyasinda yillarca geçen 
-gelistirmelerin bir sonucu olarak SSL’in daha yeni sürümü olarak kabul edebilecegimi TSL ortaya çikmistir.
+gelistirmelerin bir sonucu olarak SSL’in daha yeni sürümü olarak kabul edebilecegimiz TSL ortaya çikmistir.
 
 SSL ilk olarak Netscape tarafindan 1995 yilinda SSL 2.0 olarak yayinlanmisti. SSL’in ilk sürümü olan SSL 1.0 protokolü hiçbir 
 zaman tüm kullanicilara açik olarak kullanima sunulmamisti. Piyasada bir süre kullanilan SSL 2.0 çok geçmeden patlak verdi ve 
