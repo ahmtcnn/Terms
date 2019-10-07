@@ -4,7 +4,7 @@ Server ile alici iletisimi esnasinda verilerin sifrelenerek yapilmasi islemi
 Bu sifrelemede PKI (Public Key Infrastructure) türü kullanilir.
 PKI sifreleme genellikle RSA ve ECC ( Elliptic Curve Cryptography ) kullaniliyor.
 
-Kimlik dogrultmaya ihtiyaç duydugunuzda: Herhangi bir sunucu sizin sunucunuz gibi davranarak,
+Kimlik dogrulamaya ihtiyaç duydugunuzda: Herhangi bir sunucu sizin sunucunuz gibi davranarak,
 insanlarin bu esnada transfer ettigi bilgiye erisebilir. SSL/TLS sayesinde sunucunuzun kimligini 
 dogrulayabilir ve böylece insanlar sizin söylediginiz kisi oldugunuzu bilebilir.
 
