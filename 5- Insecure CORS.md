@@ -51,5 +51,15 @@ Aslinda request header'a da Origin basligi ile bir site ekleyerek görebiliyorsa
 **Access-Control-Allow-Methods** specifies which HTTP request methods (GET, PUT, DELETE, etc.) can be used to access resources. This header lets developers further enhance security by specifying what methods are valid when requester.com requests access to provider.com’s resources.
 
 
+**Attack SCENARIOS**
+
+1.Exploiting misconfigured wildcard (*) in CORS Headers:
+
+2.Trusting Pre-domain Wildcard as Origin:
+  -if ($_SERVER['HTTP_HOST'] == '*.requester.com')
+
+3.Using XSS to make requests to cross origin sites
+  -request from subdomain via xss
+
 
 
