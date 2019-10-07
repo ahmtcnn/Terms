@@ -4,16 +4,16 @@ Server ile alici iletisimi esnasinda verilerin sifrelenerek yapilmasi islemi
 Bu sifrelemede PKI (Public Key Infrastructure) türü kullanilir.
 PKI sifreleme genellikle RSA ve ECC ( Elliptic Curve Cryptography ) kullaniliyor.
 
-Kimlik dogrulamaya ihtiyaç duydugunuzda: Herhangi bir sunucu sizin sunucunuz gibi davranarak,
+**Kimlik dogrulamaya ihtiyaç duydugunuzda:** Herhangi bir sunucu sizin sunucunuz gibi davranarak,
 insanlarin bu esnada transfer ettigi bilgiye erisebilir. SSL/TLS sayesinde sunucunuzun kimligini 
 dogrulayabilir ve böylece insanlar sizin söylediginiz kisi oldugunuzu bilebilir.
 
-Güven saglamak: EGer bir eTicaret sitesi sahibiyseniz veya insanlardan onlar için önemli olan bilgilerini 
+**Güven saglamak:** Eger bir eTicaret sitesi sahibiyseniz veya insanlardan onlar için önemli olan bilgilerini 
 istiyorsaniz belirli bir seviye güven insa etmelisiniz. Bir SSL sertifikasi kullanarak insanlara görsel bir
 sekilde size güvenebileceklerini gösterebilirsiniz. Bu, sizin kendiniz hakkinda söyleyeceginiz herseyden daha 
 etkilidir.
 
-Piyasa standartlarina uyum saglamaniz gerekiyorsa: Finans sektörü gibi bazi sektörlerde, belirli seviye
+**Piyasa standartlarina uyum saglamaniz gerekiyorsa:** Finans sektörü gibi bazi sektörlerde, belirli seviye
 güvenlige sahip olmak gerekmektedir. Ayrica eger websitenizde kredi karti bilgisi kabul etmek istiyorsaniz,
 Payment Card Industry (PCI) standartlarini uygulamaniz gerekiyor. Bu gerekliliklerden biriside SSL/TLS 
 sertifikasidir.
