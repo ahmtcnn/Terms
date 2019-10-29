@@ -14,5 +14,8 @@ Cloud servislerin meta-data bilgilerinin çekilmesi,
 Whitelist ve DNS çözümlemelerinin aşılması gibi faaliyetler yapılabilir.
 
 
+Server başka bir yere istek yapıyor mu yapmıyor mu bunu test etmek için whatismyipadress sitelerini parametre olarak verebiliriz. Dolayısıyla ip adresi sunucuya aitse yapıyordur.
+
+
 
 
