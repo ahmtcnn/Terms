@@ -10,3 +10,5 @@ urllerin listesini kendisinde tutuyor. örn : https://bankx.com/account/send_mon
 * Form değiştirilmiş biçimde submit ediliyor. 
 
 
+Kaynak:https://www.owasp.org/index.php/Man-in-the-browser_attack
+
